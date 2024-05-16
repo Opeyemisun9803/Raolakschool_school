@@ -56,6 +56,14 @@ header {
     width: fit-content;    
 }
 
+.links-1 li a:hover   {
+    border-bottom: 3px solid #fff;
+} 
+
+.links-2 li a:hover   {
+    border-bottom: 3px solid #fff;
+} 
+
 .links-1 li {
     display: inline-block;
     list-style: none;
@@ -67,10 +75,7 @@ header {
     font-size: 15px;
     color: #fff;
     list-style: none;
-    border-bottom: 1px solid rgb(252, 83, 21);
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-   }
+  }
 
    .links-2 {
     display: block;
@@ -152,15 +157,9 @@ header {
     background-position: right; 
     border-radius: 10px;
     padding-left: 50px;
-    /* float: right; */
-   }
-
-   .search-logo {
-    width: 50px;
-    height: 50px;
   }
 
-   /*Section-1 Codes*/
+     /*Section-1 Codes*/
 
    .section-1 {
     margin: -150px 0px;
@@ -175,11 +174,11 @@ header {
     margin-top: 50px;
     width: 100%;
     height: 600px;
-    background-image: url('img/schoolphoto1.jpg');
+    background-image: url('img/schoolphoto4.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    animation: 20s slide infinite linear
+    animation: 30s slide infinite linear
 
     /* transition: all 2s ease-in-out 1s;
     -webkit-transition: all 2s ease-in-out 1s;
@@ -195,14 +194,14 @@ header {
    }*/ 
 
     @keyframes slide {
-    0%, 20% {
-    background-image: url('img/schoolphoto1.jpg');
+    10%, 20% {
+    background-image: url('img/student1-.jpg');
     }
-    20%, 40% {
-    background-image: url('img/schoolphoto2.jpg');
+    20%, 30% {
+    background-image: url('img/student4-.jpg');
     }
-    40%, 60% 
-    {background-image: url('img/schoolphoto3.jpg');
+    30%, 40% 
+    {background-image: url('img/schoolphoto10b.jpg');
     }
    }
 
@@ -225,7 +224,7 @@ header {
     background-image: url('img/images-fm.jpeg');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 500px;
+    background-size: 450px;
     }
 
    .button-test-1 {
@@ -233,9 +232,9 @@ header {
     display: block;
     width: 110px;
     height: 30px;
-    margin: 350px 150px;
-    padding-top: 6px;
-    padding-left: 15px;
+    margin: 350px 130px;
+    padding-top: 7px;
+    padding-left: 35px;
     background-color: navy;
     font-size: 15px;
     font-family: SErif;
@@ -247,6 +246,10 @@ header {
     -webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;*/
+}
+
+.button-test-1:hover {
+    background-color: orange;
 }
 
 .button-test-2 {
@@ -256,7 +259,7 @@ header {
     height: 30px;
     margin: 20px 150px;
     padding-top: 6px;
-    padding-left: 15px;
+    padding-left: 35px;
     background-color: navy;
     font-size: 15px;
     font-family: SErif;
@@ -269,6 +272,11 @@ header {
     -moz-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;*/
 }
+
+.button-test-2:hover {
+    background-color: orange;
+}
+
 
 .button-test-3 {
     /* padding-top: 3px; */
@@ -276,8 +284,8 @@ header {
     width: 110px;
     height: 30px;
     margin: 0px 150px;
-    padding-top: 6px;
-    padding-left: 15px;
+    padding-top: 8px;
+    padding-left: 35px;
     background-color: navy;
     font-size: 15px;
     font-family: SErif;
@@ -290,6 +298,11 @@ header {
     -moz-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;*/
 }
+
+.button-test-3:hover {
+    background-color: orange;
+}
+
 
 /*.button-test:hover {
     width: 170px;
@@ -384,12 +397,10 @@ header {
     width: 100%;
     height: 450px;
     margin-top: -450px; 
-    /* background-image: url('img/pp.jpg');  */
     background-position: center;
     background-size: cover;
     padding-top: 10px;
-    /* border-radius: 25px; */
-  }
+    }
 
    .study-section {
     display: grid;
@@ -402,21 +413,63 @@ header {
 
    .studies-1 {
     height: 350px;
-    background-color: #f3f3f39c;
+    background-image: url('img/student5-.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     border-radius: 20px;
    }
+
+   .studies-1 p {
+    visibility: hidden;
+   }
+
+   .studies-1:hover p {
+    visibility: visible;
+    height: 260px;
+    background-color: orange;
+    font-size: 23px;
+    }
 
    .studies-2 {
     height: 350px;
-    background-color: #f3f3f39c;
+    background-image: url('img/student6-.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     border-radius: 20px;
+    }
+
+   .studies-2 p {
+    visibility: hidden;
    }
+
+   .studies-2:hover p {
+    visibility: visible;
+    height: 260px;
+    background-color: orange;
+    font-size: 23px;
+    }
 
    .studies-3 {
     height: 350px;
-    background-color: #f3f3f39c;
+    background-image: url('img/student7-.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     border-radius: 20px;
+    }
+
+   .studies-3 p {
+    visibility: hidden;
    }
+
+   .studies-3:hover p {
+    visibility: visible;
+    height: 260px;
+    background-color: orange;
+    font-size: 23px;
+    }
 
    .studies-text-1 {
     font-size: 37px;
@@ -426,30 +479,24 @@ header {
     padding-top: 10px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    /* background-image: url('img/girl-photo.webp');
-    background-repeat: no-repeat;
-    background-size: cover; */
-    
-   }
+  }
 
    .studies-text-p {
     font-size: 20px;
-    font-family: Times;
+    font-family: georgia;
     font-weight: 25px;
-    padding: 8px;
-    padding-top: 40px;
+    padding: 40px 0px 0 20px;
     line-height: 38px;
     color: #000;
+    transition: all 0.5s ease-in-out;
    }
 
    .studies-p {
     font-size: 28px;
     font-family: Times;
     color: navy;
-    padding: 28px 0 0 95px;
-    /* background-color: navy;  */
+    padding: 30px 0 0 95px;
     border-radius: 15px;
-    
    }
 
 
@@ -477,7 +524,69 @@ header {
     color: navy;
    }
 
+   /*number-section*/
+
+   .number-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 15px;
+    width: 100%;
+    height: 250px;
+    background-color: #fefefe;
+    margin: 50px 0 0 0px;
+   }
+
+   .number-box-1 {
+    height: 250px;
+    background-color: navy;
+   }
+
+   .number-box-1i {
+     height: 200px;
+     width: 280px;
+     margin: 25px 0 0 22px;
+     background-color: #fff;
+     border-radius: 25px;
+   }
    
+   .number-box-1i-text-1 {
+     font-size: 70px;
+    padding: 25px 0 10px 110px;
+    font-family: arial black;
+   }
+
+   .number-box-1i-text-2 {
+    font-size: 25px;
+    padding-left: 65px;
+    font-family: georgia;
+    }
+
+  .number-box-1i-text-1iii {
+    font-size: 70px;
+   padding: 25px 0 10px 85px;
+   font-family: arial black;
+  }
+
+  .number-box-1i-text-2iii {
+   font-size: 25px;
+   padding-left: 45px;
+   font-family: georgia;
+   }
+
+ .number-box-1i-text-1iv {
+    font-size: 70px;
+   padding: 25px 0 10px 15px;
+   font-family: arial black;
+  }
+
+  .number-box-1i-text-2iv {
+   font-size: 25px;
+   padding-left: 65px;
+   font-family: georgia;
+   }
+
+ 
+
    /*.cloumn-1:hover {
     background-color: rgb(98, 0, 255);
    }
@@ -490,12 +599,13 @@ header {
     background-color: rgb(98, 0, 255);
    }
 
-   /*Section-3*/
+   /*Faculty Section-3*/
 
    .Faculty {
     margin-top: 20px;
     padding-left: 600px;
     font-size: 30px;
+    color: #000;
    }
 
    .section-3 {
@@ -504,190 +614,163 @@ header {
     grid-gap: 25px;
     width: 100%;
     height: 440px;
-    margin-top: 10px;
-    background-color: #eadfdf;
+    margin-top: 0px;
+    background-color: #f3f3f3;
     overflow: hidden;
-    /* padding-top: 20px; */
+     padding-bottom: 200px;  
    }
-
-    h3 {
-    display: block;
-    width: 110px;
-    height: 30px;
-    /* margin: 60px 0 0 75px;  */
-    padding-top: 10px;
-    padding-left: 15px; 
-    background-color: navy;
-    font-size: 15px;
-    font-family: SErif;
-    font-weight: 200;
-    color: #fff;
-    border-radius: 20px;
-   } 
 
    .box-1 {
-    height: 200px;
-    background-image: url('img/me.JPG');
-    background-size: cover;
-    border-radius: 15px;
-    /* padding-top: 30px; */
-    /* position: relative; */
-    /* overflow: hidden; */
+    height: 250px;
+    background-color: #fff;
+    margin-top: 30px;
+    padding-top: 25px;
    }
-
-   .button-box {
-    display: block;
-    width: 140px;
-    height: 30px;
-    margin:70px 70px;
-    padding-top: 5px;
-    padding-left: 15px;
-    background-color: navy;
-    font-size: 22px;
-    font-family: SErif;
-    color: #fff;
-    border-radius: 20px;
-   }
-
-   .button-box-2 {
-    display: block;
-    width: 190px;
-    height: 30px;
-    margin:70px 50px;
-    padding-top: 5px;
-    padding-left: 15px;
-    background-color: navy;
-    font-size: 22px;
-    font-family: SErif;
-    color: #fff;
-    border-radius: 20px; 
-   }
-
-   .button-box-3 {
-    display: block;
-    width: 100px;
-    height: 30px;
-    margin:70px 60px;
-    padding-top: 5px;
-    padding-left: 90px;
-    background-color: navy;
-    font-size: 22px;
-    font-family: SErif;
-    color: #fff;
-    border-radius: 20px; 
-   }
-
-
 
    .box-2 {
-    height: 200px;
-    /* color: #111; */
-    background-image: url('img/Engineers.jpg');
-    background-size: cover;
-    border-radius: 15px;
-    /* position: relative;
-    overflow: hidden;*/
+    height: 250px;
+    background-color: #fff;
+    padding-top: 25px;
    }
 
-   .box-3 {
+  .box-1-p {
     height: 200px;
-    background-color: rgb(158, 38, 48);
-    color: #111;
-    background-image: url('img/science-stu.jpeg');
+    width: 280px;
+    margin-left: 20px;
+    background-image: url('img/me.JPG');
     background-size: cover;
+    background-position: center;
     border-radius: 15px;
-    /* position: relative; */
-    /* overflow: hidden; */
+  }
+
+  .box-p {
+    width: 240px;
+    height: 36px;
+    margin: 8px 0 0 5px;
+    padding-left: 65px;
+    font-family: georgia;
+    font-size: 27px;
+    color: #000;
+    background-color: rgb(252, 76, 12);
+    border-radius: 15px;
    }
 
-   .box-4 {
-    height: 200px;
-    background-color: rgb(166, 255, 0);
-    color: #111;
-    background-image: url('img/Manage.jpeg');
-    background-size: cover;
+   .box-p-1 {
+    width: 262px;
+    height: 36px;
+    margin: 8px 0 0 5px;
+    padding-left: 38px;
+    font-family: georgia;
+    font-size: 27px;
+    color: #000;
+    background-color: rgb(252, 76, 12);
     border-radius: 15px;
-    /* position: relative; */
-    /* overflow: hidden; */
    }
 
-   .box-5 {
-    height: 200px;
-    background-color: rgb(13, 53, 40);
-    color: #111;
-    background-image: url('img/agric.jpeg');
-    background-size: cover;
+   .box-p-2 {
+    width: 205px;
+    height: 36px;
+    margin: 8px 0 0 5px;
+    padding-left: 100px;
+    font-family: georgia;
+    font-size: 27px;
+    color: #000;
+    background-color: rgb(252, 76, 12);
     border-radius: 15px;
-    /* position: relative; */
-    /* overflow: hidden; */
    }
 
-   .box-6 {
+   .box-p-3 {
+    width: 180px;
+    height: 36px;
+    margin: 8px 0 0 5px;
+    padding-left: 125px;
+    font-family: georgia;
+    font-size: 27px;
+    color: #000;
+    background-color: rgb(252, 76, 12);
+    border-radius: 15px;
+   }
+
+  .box-1:hover {
+    background-color:  navy;
+   }
+
+   .box-2-p {
     height: 200px;
-    background-color: gold;
-    color: #111;
+    width: 280px;
+    margin-left: 20px;
+    background-image: url('img/Engineers2.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+  }
+    
+  .box-3-p {
+    height: 200px;
+    width: 280px;
+    margin-left: 20px;
+    background-image: url('img/science-stu2.jpeg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+  }
+
+  .box-4-p {
+    height: 200px;
+    width: 280px;
+    margin-left: 20px;
+    background-image:url('img/Manage.jpeg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+  }
+   
+  .box-5-p {
+    height: 200px;
+    width: 280px;
+    margin-left: 20px;
+    background-image: url('img/agric2.jpeg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+  }
+   
+  .box-6-p {
+    height: 200px;
+    width: 280px;
+    margin-left: 20px;
     background-image: url('img/medic.jpeg');
     background-size: cover;
+    background-position: center;
     border-radius: 15px;
-    /* position: relative; */
-    /* overflow: hidden; */
-   }
-
-   .box-7 {
+  }
+   
+  .box-7-p {
     height: 200px;
-    background-color: goldenrod;
-    color: #111;
-    background-image: url('img/law3.jpeg');
+    width: 280px;
+    margin-left: 20px;
+    background-image: url('img/law4.jpeg');
     background-size: cover;
+    background-position: center;
     border-radius: 15px;
-    /* position: relative; */
-    /* overflow: hidden; */
-   }
-
-   .box-8 {
+  }
+   
+  .box-8-p {
     height: 200px;
-    background-color: rgb(134, 236, 108);
-    color: #111;
+    width: 280px;
+    margin-left: 20px;
     background-image: url('img/edu.jpeg');
     background-size: cover;
+    background-position: center;
     border-radius: 15px;
-    /* position: relative; */
-    /* overflow: hidden; */
-   }
-
-   .box-1:hover {
-    background-color:  rgb(252, 76, 12);
-   }
+  }
+   
 
    .box-2:hover {
-    background-color:  rgb(252, 76, 12);
+    background-color:  navy;
    }
 
-   .box-3:hover {
-    background-color:  rgb(252, 76, 12);
-   }
-
-   .box-4:hover {
-    background-color:  rgb(252, 76, 12);
-   }
-
-   .box-5:hover {
-    background-color:  rgb(252, 76, 12);
-   }
-
-   .box-6:hover {
-    background-color:  rgb(252, 76, 12);
-   }
-
-   .box-7:hover {
-    background-color:  rgb(252, 76, 12);
-   }
-
-   .box-8:hover {
-    background-color:  rgb(252, 76, 12);
-   }
-
-   /*Section-4 codes*/
+    /*Section-4 codes*/
 
    .section-4 {
     display: grid;
@@ -703,30 +786,48 @@ header {
    /*FOOTER*/
        
 footer {
-    width: calc(100% - 80px) ;
-    padding: 40px 40px;
-    margin-top: 20px;
-    background-color: #111;
+    width: calc(100% - 70px) ;
+    padding: 35px 35px;
+    margin-top: 10px;
+    background-color: #000000;
     overflow: hidden;
+
 }
     
 footer ul {
     width: fit-content;
-    float: left;
-    padding-left: 20px;
+     float: left; 
+    padding-left: 50px;
+}
+
+.footer-list {
+    font-family: Georgia;
+    font-size: 20px;
+    color: #fff;
+    line-height: 20px;
+    list-style: none;
 }
 
 footer ul li {
     display: block;
     list-style: none;
-    line-height: 20px;
+    line-height: 40px;
+    padding-top: 10px;
+    list-style: none;
 }
  
 footer ul li a {
     font-family: Georgia;
     font-size: 16px;
+    color: #f3f3f39c;
+    line-height: 20px;
+    list-style: none;
+    margin-top: 50px;
+  }
+
+footer ul li a:hover {
+    /* border-bottom: 3px solid gold; */
     color: #fff;
-    line-height: 80px;
 }
 
 .footer-links-cases {
@@ -734,12 +835,35 @@ footer ul li a {
 }
 
 .footer-sm {
-    width: 100px;
+    width: 70px;
     float: right;
 }
 
 .footer-sm img {
-    width: 100px;
+    width: 70px;
     margin-bottom: 10px;
 }
+
+.footer-box {
+    width: 90;
+    height: 50px;
+    background-color: #000;
+    border-top: 3px solid #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.footer-box-sch {
+    font-family: Georgia;
+    font-size: 18px;
+    color: rgb(241, 109, 61);
+}
+
+.footer-box-text {
+    font-family: Georgia;
+    font-size: 18px;
+    color: #fff;
+    padding: 10px 0 0 100px;
+   }
+
 
